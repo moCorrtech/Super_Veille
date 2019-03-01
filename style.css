@@ -1,0 +1,180 @@
+body {
+	  height: 100%;
+	  overflow-x: hidden;
+	  background-image: url("fond.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+         background-size: 100%;
+      
+}
+
+header {
+	height: 600px;
+	display: flex;
+	position: sticky;
+	
+}
+#zone_logo {
+	width: 40%;
+	height: 100%;
+}
+
+#logo{
+	width: 100%;
+	margin-left: 5em;
+	margin-top: 0.5em;
+}
+#zone_titre {
+	width: 80%
+}
+#titre {
+	text-align: center;
+	margin-left: -10em;
+	font-family: 'Sigmar One', cursive;
+	color: #ff6600;
+	font-size: 150%;
+	-webkit-text-stroke: 4px;
+       -webkit-text-stroke-color: #fff;
+}
+h1 {
+	font-size: 2.7em;
+}
+
+h2 {
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	font-size: 180%;
+	color: #fff;
+	text-shadow:2px 4px 3px black;
+	padding-top: 1.2em;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	margin-left: 20%;
+	margin-top: 5%;
+	padding-top: 10px;
+	padding-left: 15px;
+	background-color: black;
+	height: 2em;
+	width: 18em;
+	color: white;
+	border-radius: 0.4em;
+	box-shadow: 2px 2px 5px black;
+}
+nav li {
+	margin-left: 20%;
+       font-family: 'Roboto', sans-serif;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#bandeau_haut {
+	background:url(orang_outan.jpg);
+	height: 30em;
+	width: 104%;
+	border:0.2em solid white;
+	margin-left: -1em;
+	background-size: 100%;
+	padding-top: 15%
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#description_banniere {
+	font-family: 'Boogaloo', cursive;
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+	font-weight:bold;
+	padding-top:2em;
+	text-shadow:2px 4px 3px black;
+
+}
+hr {
+	width: 50%;
+	height: 2px;
+	background-color: white;
+}
+
+#vite_dit {
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	font-weight:bold;
+	text-shadow:2px 4px 3px black;
+
+}
+#premiere_partie {
+	margin-left: 13em;
+	text-align: justify;
+	width: 30%;
+}
+#deuxieme_partie {
+	margin-left: 5em;
+	margin-right: 5em;
+	text-align: justify;
+	width: 30%;
+	margin-top: 1.1em;
+}
+#media {
+	display: flex;
+	padding-left: 10%;
+	margin-left: -3%;
+	padding-right: 10%;
+	padding-top: 3%;
+	margin-top: 2%;
+	padding-bottom: 3%;
+	margin-bottom: 2%;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+}
+#texte_video {
+	text-align: justify;
+	padding-left: 7em;
+	padding-right: 11em;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+#image_borneo {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-image: linear-gradient(grey, black)
+	
+}
+#menu_footer ul {
+	display: flex;
+	list-style: none;
+	width: 800px;
+}
+
+#menu_footer li {
+	padding-left: 5%;
+	margin-left: 4%;
+	color: white;
+}
+.reseaux_sociaux {
+	width: 9%;
+	margin-top: 5px;
+}
+h3 {
+	font-family: 'Boogaloo', cursive;
+	font-size: 2.5em;
+	color: white;
+	font-weight:bold;
+	text-shadow:2px 4px 3px black;
+         margin-left: 200px;
+	margin-top: -180px;
+}
+.photo {
+	margin-left: 200px;
+}
